@@ -400,7 +400,7 @@ def load_from_tsfile_to_dataframe(
                                             )
 
                                         try:
-                                            value = tuple_data[last_comma_index + 1 :]
+                                            value = tuple_data[last_comma_index + 1:]
                                             value = float(value)
 
                                         except ValueError:
