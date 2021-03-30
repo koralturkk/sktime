@@ -12,6 +12,7 @@ __all__ = [
     "ForecastingGridSearchCV",
     "ForecastingRandomizedSearchCV",
     "SlidingWindowSplitter",
+    "ExpandingWindowSplitter",
     "SingleWindowSplitter",
     "temporal_train_test_split",
     "NaiveForecaster",
@@ -54,6 +55,7 @@ from sktime.forecasting.model_selection import (
     ForecastingGridSearchCV,
     ForecastingRandomizedSearchCV,
 )
+from sktime.forecasting.model_selection import ExpandingWindowSplitter
 from sktime.forecasting.model_selection import SingleWindowSplitter
 from sktime.forecasting.model_selection import SlidingWindowSplitter
 from sktime.forecasting.model_selection import temporal_train_test_split
